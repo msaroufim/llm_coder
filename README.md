@@ -1,5 +1,7 @@
 ## ThunderKittens Assistant
 
+> NOTE: There are more serious projects like docs.github.com/en/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot and cursor101.com/article/cursor-rules-customizing-ai-behavior that do the same thing but better
+
 This extension provides an AI-powered code assistant, what it basically does right now is it lets you select a piece of code and ask questions about it. The nice thing is you can provide a long prompt of your library is intentended to be used at the top of `extension.ts` and then will just use Claude to provide suggestions.
 
 Whilee this code can work with any arbitrary library, for this repo I'm showing how it's meant to be used with the ThunderKittens CUDA library.
